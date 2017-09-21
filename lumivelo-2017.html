@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Lumivélo</title>
+    <link rel="shortcut icon" href="http://www.inventorsdads.net/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container2">
+
+    <h1>Lumivélo 2017</h1>
+
+    <h2>Qu’est-ce que c’est?</h2>
+
+    <p>Pour la deuxième année (voir <a href="lumivelo-2016.html">Lumivelo 2016</a>),
+    Lumivélo est un système de décorations lumineuses installées
+    sur une quinzaine de vélos de parents et enfants participant à l’édition
+    2017 du tour de l’île de Montréal la nuit. Comme l’an dernier, les
+    lumières sont synchronisées par wifi mais presque tout a été repensé :
+    depuis le réseau maillé dans lequel les modules fonctionnent sans besoin
+    d’un « access-point » central à la mini-série de PCBs « custom », plus
+    durables et incluant des capteurs de lumière et d’accélération.</p>
+
+    <div class="center">
+      <img src="img/lumivelo-2017.jpg">
+    </div>
+
+    <h2>Détails techniques, photos et informations pour fabriquer le votre</h2>
+
+    <p>Chaque vélo est équipé d’un petit module ESP8266 servant à contrôler
+    des LEDs (WS2812B) en réponse à des messages reçus par wifi ou bien des
+    signaux des accéléromètres et photorésistance installée. Chaque module
+    constitue le nœud d’un réseau maillé constitué automatiquement pour
+    relayer les messages de synchronisation envoyés par n’importe quel
+    vélo.</p>
+
+    <p>Voir la <a href="http://www.chezpapietmamie.com/pcube/esp8266/lumivelo-2017/">Page du projet sur pcube</a>.<p>
+
+    <h2>Motivation</h2>
+
+    <p>Aux motivations de 2016 (sécurité, implication des enfants et occasion
+    d’apprendre) s’ajoutent les suivantes:</p>
+
+    <ul>
+        <li>Durabilité - envie de fabriquer quelque chose susceptible de
+        resservir en dehors du soir du tour de l’île.</li>
+        <li>Étendre (un peu) nos perspectives en apprenant à réaliser des PCBs
+        et à utiliser une machine de découpe laser.</li>
+    </ul>
+
+    <h2>Papas impliqués</h2>
+
+    <p>Idée originale par Sébastien Cabot . Conception du module 2017 par
+    Pascal Prado et Fabien Brun. Mise-en-oeuvre Sébastien Cabot, Pascal Prado
+    et Stéphane Thienôt.</p>
+
+    <h2>Leçons apprises</h2>
+
+    <p>Pleins de nouveaux outils (KiCad, Inkscape, sérigraphie, découpe
+    laser…) et codes (librairies pour réseaux maillés, ESP8266 programmés dans
+    IDE Arduino…). Meilleure compréhension des notions de consommation et
+    d’économie d’énergie.</p>
+
+  </div>
+  </body>
+</html>
