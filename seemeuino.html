@@ -20,42 +20,43 @@
 
     <h2>Qu’est-ce que c’est ?</h2>
 
-    <p>SeeMeUino est un dispositif servant à contrôler des LEDs installées sur
+    <p>SeeMeUino est un dispositif servant à contrôler des DEL installées sur
     un vélo pour le rendre visible lorsque nécessaire. Il utilise des capteurs
     de lumière et d’accélération pour moduler les lumières en fonction de la
-    situation : vélo à l’arrêt, freinage d’urgence, vélo tombé au sol etc.</p>
+    situation : vélo à l’arrêt, freinage d’urgence, vélo tombé au sol, etc.</p>
 
     <h2>Détails techniques, photos et informations pour fabriquer le votre</h2>
 
     <p>Voir la <a href="http://www.chezpapietmamie.com/pcube/arduino/seemeuino">Page du projet sur pcube</a>.<p>
 
-    <h2>Motivation</h2>
+    <h2>Motivations</h2>
 
     <p>Été comme hiver, de jour comme de nuit, j’utilise beaucoup mon vélo. La
     visibilité est une composante essentielle de la sécurité du cycliste. Le
-    Système SeeMeUino permet – en principe – de rendre automatique la mise en
+    Système SeeMeUino permet – en principe – de rendre automatiques la mise en
     marche et l’arrêt des lumières (selon mouvement détecté et lumière
     ambiante). La modulation en fonction de la situation permet de maximiser
     l’intensité lorsque nécessaire (freinage, vélo couché sur le côté) tout en
     la réduisant en situation normale pour maximiser l’autonomie de la
     batterie.</p>
 
-    <h2>Inventeurs impliqués</h2>
+    <h2>Inventeur impliqué</h2>
 
-    <p>Idée, conception et mise-en-oeuvre du Stecchino par Pascal Prado.</p>
+    <p>Idée, conception et mises en œuvre du Stecchino par Pascal Prado.</p>
 
     <h2>Leçons apprises</h2>
 
-    <p>Les LEDs utilisée (WS2812B) comportent toutes une micro puce de
-    contrôle. En conséquence, la bande LED consomme beaucoup de courant même
-    lorsqu’elle est éteinte. Il a donc été nécessaire de prévoir un dispositif
-    permettant de couper l’alimentation des LEDs (débrancher) au besoin. Notez
-    que le montage du SeeMeUino utilise un mosfet N coupant la ligne de masse
-    (ground) mais qu’une meilleure solution a depuis été trouvée pour obtenir
-    le même effet (high-side switching avec mosfet P, voir projet Lumivélo
-    2017).  Ce projet a également été l’occasion d’apprendre à manipuler /
-    filtrer / traiter les données de l’accéléromètre pour reconnaître des
-    états (freinage etc.).</p>
+    <p>Les DEL utilisées (WS2812B) comportent toutes une mini puce de contrôle.
+    En conséquence, la bande DEL consomme beaucoup de courant même lorsqu’elle
+    est éteinte. Il a donc été nécessaire de prévoir un dispositif permettant
+    de couper l’alimentation des DEL (débrancher) au besoin. Notez que le
+    montage du SeeMeUino utilise un transistor à effet de champ N («MOSFET N»)
+    coupant la ligne de masse («ground») mais qu’une meilleure solution a
+    depuis été trouvée pour obtenir le même effet («high-side switching» avec
+    transistor à effet de champ P (MOSFET P), voir projet Lumivélo 2017).  Ce
+    projet a également été l’occasion d’apprendre à manipuler / filtrer /
+    traiter les données de l’accéléromètre pour reconnaître des états
+    (freinage, etc.).</p>
 
   </div>
   </body>
