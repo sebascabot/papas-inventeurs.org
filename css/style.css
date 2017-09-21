@@ -62,22 +62,15 @@ body {
   margin-bottom: 2rem;
 }
 
-@font-face {
-  font-family: "Acki Preschool";
-  src: url("../fonts/ackipreschool.ttf");
-}
-
 .container1 h1 {
   padding-top: 1rem;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
-  font-family: "Acki Preschool", sans-serif;
 }
 
 .container1 h2 {
-  font-family: "Acki Preschool", sans-serif;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
 }
 
