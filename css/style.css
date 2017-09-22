@@ -15,7 +15,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 60rem;
-  background-color: #feed;
+  background-color: rgba(255, 238, 238, 0.85);
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
@@ -57,7 +57,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 40rem;
-  background-color: #effc;
+  background-color: rgba(238, 255, 255, 0.8);
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
