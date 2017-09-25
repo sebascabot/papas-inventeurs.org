@@ -66,6 +66,7 @@ body {
   padding-top: 1rem;
   font-size: 4rem;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .container1 h2 {
@@ -74,8 +75,11 @@ body {
   font-style: italic;
 }
 
-.container1 h1 b {
-  font-size: 0.5em;
+.container1 nav {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+  font-size: 2rem;
   font-style: italic;
 }
 
